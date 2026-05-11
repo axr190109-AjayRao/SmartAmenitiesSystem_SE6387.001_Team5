@@ -1,0 +1,278 @@
+{
+  "generatedFrom": [
+    "Level3.geojson"
+  ],
+  "recordCount": 30,
+  "records": [
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Accessible Restroom",
+      "amenityTypeNormalized": "ACCESSIBLE_RESTROOM",
+      "latitude": 32.899219,
+      "longitude": -97.044304,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 23
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Accessible Restroom",
+      "amenityTypeNormalized": "ACCESSIBLE_RESTROOM",
+      "latitude": 32.899366,
+      "longitude": -97.043019,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 28
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Accessible Restroom",
+      "amenityTypeNormalized": "ACCESSIBLE_RESTROOM",
+      "latitude": 32.893396,
+      "longitude": -97.041836,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 31
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Accessible Restroom",
+      "amenityTypeNormalized": "ACCESSIBLE_RESTROOM",
+      "latitude": 32.895707,
+      "longitude": -97.042252,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 34
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Accessible Restroom",
+      "amenityTypeNormalized": "ACCESSIBLE_RESTROOM",
+      "latitude": 32.897188,
+      "longitude": -97.044961,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 37
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Accessible Restroom",
+      "amenityTypeNormalized": "ACCESSIBLE_RESTROOM",
+      "latitude": 32.896618,
+      "longitude": -97.044738,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 40
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Accessible Restroom",
+      "amenityTypeNormalized": "ACCESSIBLE_RESTROOM",
+      "latitude": 32.895893,
+      "longitude": -97.044395,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 44
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Accessible Restroom",
+      "amenityTypeNormalized": "ACCESSIBLE_RESTROOM",
+      "latitude": 32.89571,
+      "longitude": -97.043063,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 47
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Accessible Restroom",
+      "amenityTypeNormalized": "ACCESSIBLE_RESTROOM",
+      "latitude": 32.898454,
+      "longitude": -97.0448,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 49
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Accessible Restroom",
+      "amenityTypeNormalized": "ACCESSIBLE_RESTROOM",
+      "latitude": 32.897705,
+      "longitude": -97.044963,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 52
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Men's Restroom",
+      "amenityTypeNormalized": "MEN_RESTROOM",
+      "latitude": 32.898414,
+      "longitude": -97.044839,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 24
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Men's Restroom",
+      "amenityTypeNormalized": "MEN_RESTROOM",
+      "latitude": 32.899366,
+      "longitude": -97.043077,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 29
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Men's Restroom",
+      "amenityTypeNormalized": "MEN_RESTROOM",
+      "latitude": 32.893714,
+      "longitude": -97.04185,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 32
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Men's Restroom",
+      "amenityTypeNormalized": "MEN_RESTROOM",
+      "latitude": 32.895707,
+      "longitude": -97.042268,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 33
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Men's Restroom",
+      "amenityTypeNormalized": "MEN_RESTROOM",
+      "latitude": 32.897172,
+      "longitude": -97.04496,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 36
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Men's Restroom",
+      "amenityTypeNormalized": "MEN_RESTROOM",
+      "latitude": 32.896606,
+      "longitude": -97.044724,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 41
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Men's Restroom",
+      "amenityTypeNormalized": "MEN_RESTROOM",
+      "latitude": 32.895912,
+      "longitude": -97.044417,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 43
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Men's Restroom",
+      "amenityTypeNormalized": "MEN_RESTROOM",
+      "latitude": 32.89571,
+      "longitude": -97.043057,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 45
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Men's Restroom",
+      "amenityTypeNormalized": "MEN_RESTROOM",
+      "latitude": 32.899225,
+      "longitude": -97.04428,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 50
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Men's Restroom",
+      "amenityTypeNormalized": "MEN_RESTROOM",
+      "latitude": 32.89772,
+      "longitude": -97.044955,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 53
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Women's Restroom",
+      "amenityTypeNormalized": "WOMEN_RESTROOM",
+      "latitude": 32.899189,
+      "longitude": -97.044315,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 26
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Women's Restroom",
+      "amenityTypeNormalized": "WOMEN_RESTROOM",
+      "latitude": 32.899369,
+      "longitude": -97.042963,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 27
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Women's Restroom",
+      "amenityTypeNormalized": "WOMEN_RESTROOM",
+      "latitude": 32.893279,
+      "longitude": -97.041835,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 30
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Women's Restroom",
+      "amenityTypeNormalized": "WOMEN_RESTROOM",
+      "latitude": 32.895711,
+      "longitude": -97.042239,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 35
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Women's Restroom",
+      "amenityTypeNormalized": "WOMEN_RESTROOM",
+      "latitude": 32.897218,
+      "longitude": -97.044959,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 38
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Women's Restroom",
+      "amenityTypeNormalized": "WOMEN_RESTROOM",
+      "latitude": 32.896633,
+      "longitude": -97.044756,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 39
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Women's Restroom",
+      "amenityTypeNormalized": "WOMEN_RESTROOM",
+      "latitude": 32.895904,
+      "longitude": -97.044413,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 42
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Women's Restroom",
+      "amenityTypeNormalized": "WOMEN_RESTROOM",
+      "latitude": 32.895709,
+      "longitude": -97.043068,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 46
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Women's Restroom",
+      "amenityTypeNormalized": "WOMEN_RESTROOM",
+      "latitude": 32.898486,
+      "longitude": -97.044761,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 48
+    },
+    {
+      "sourceLevel": "Level3",
+      "sourceLabel": "Women's Restroom",
+      "amenityTypeNormalized": "WOMEN_RESTROOM",
+      "latitude": 32.897687,
+      "longitude": -97.044956,
+      "sourceFile": "Level3.geojson",
+      "sourceFeatureIndex": 51
+    }
+  ]
+}

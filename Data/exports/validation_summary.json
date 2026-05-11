@@ -1,0 +1,13 @@
+{
+  "recordCount": 30,
+  "countsPerLevel": {
+    "Level3": 30
+  },
+  "countsPerAmenityType": {
+    "ACCESSIBLE_RESTROOM": 10,
+    "MEN_RESTROOM": 10,
+    "WOMEN_RESTROOM": 10
+  },
+  "dedupeRemoved": 1,
+  "issues": []
+}

@@ -1,0 +1,21 @@
+{
+  "sourceFile": "Level3.geojson",
+  "routeLineSegments": 28,
+  "duplicateRouteSegments": 0,
+  "intersectionsDetected": 28,
+  "overlapsDetected": 0,
+  "amenityAnchors": 31,
+  "countsPerAmenityType": {
+    "ACCESSIBLE_RESTROOM": 11,
+    "MEN_RESTROOM": 10,
+    "WOMEN_RESTROOM": 10
+  },
+  "countsPerAmenityLabel": {
+    "Accessible Restroom": 11,
+    "Men's Restroom": 10,
+    "Women's Restroom": 10
+  },
+  "maxAmenitySnapDistanceMeters": 1.089,
+  "averageAmenitySnapDistanceMeters": 0.326,
+  "issues": []
+}
