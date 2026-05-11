@@ -520,8 +520,10 @@ class NavigationActivity : AppCompatActivity() {
                 && !replacementRequestInFlight
                 && isAmenityClosed(liveStatus.status, liveStatus.selectable)
             ) {
-                closureSnapshotLat = currentLat
-                closureSnapshotLon = currentLon
+                val routePoints = currentRouteModel?.routeGeoPoints ?: emptyList()
+                val nearest = nearestRouteGeoPoint(currentLat, currentLon, routePoints)
+                closureSnapshotLat = nearest?.latitude ?: currentLat
+                closureSnapshotLon = nearest?.longitude ?: currentLon
                 rerouteMuted = true
                 fetchReplacementAndShowDialog(liveStatus, currentLat, currentLon)
             }
@@ -922,8 +924,14 @@ class NavigationActivity : AppCompatActivity() {
             val route = result.getOrNull()
             if (route == null) {
                 val error = result.exceptionOrNull()
-                if (isBlockedRerouteFailure(error)) {
+                // In non-deviation segments a 400 means the backend intentionally blocked rerouting.
+                // In SEGMENT_4 a 400 means the deviated coordinates couldn't be routed — fall
+                // through to the snapped-position retry so the reroute can still succeed.
+                if (isBlockedRerouteFailure(error) && !NavigationSessionState.isDeviationRerouteAllowed()) {
                     Log.i(TAG, "Deviation reroute blocked by backend; continuing current navigation flow")
+                    hasRerouted = true
+                    simulatedActualLat = null
+                    simulatedActualLon = null
                     isOffRouteRerouteInProgress = false
                     startProgressSimulation(resetProgress = false)
                     return@createRoute
@@ -934,6 +942,9 @@ class NavigationActivity : AppCompatActivity() {
                 val fallbackLon = lastKnownSnappedLon
                 if (fallbackLat == null || fallbackLon == null || (fallbackLat == fromLat && fallbackLon == fromLon)) {
                     Log.e(TAG, "off-route reroute: no valid fallback position; resuming original route")
+                    hasRerouted = true
+                    simulatedActualLat = null
+                    simulatedActualLon = null
                     isOffRouteRerouteInProgress = false
                     startProgressSimulation(resetProgress = false)
                     return@createRoute
