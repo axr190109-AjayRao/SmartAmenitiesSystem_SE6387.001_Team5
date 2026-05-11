@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        NavigationSessionState.init(this)
         setContentView(R.layout.activity_main)
 
         val startButton = findViewById<Button>(R.id.btnStart)
