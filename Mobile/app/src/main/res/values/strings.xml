@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">SmartAmenities</string>
     <string name="home_title">Smart Amenities</string>
-    <string name="home_subtitle">Iteration 1 - Core Navigation Baseline</string>
     <string name="home_flow_hint">Find an amenity and get route details from the backend.</string>
-    <string name="current_demo_segment_label">Current Demo Segment: %1$s</string>
     <string name="start_button_label">Start</string>
     <string name="frontend_setup_working">Frontend setup is working</string>
     <string name="amenity_list_title">Select an Amenity</string>
@@ -60,7 +58,7 @@
     <string name="estimated_time_placeholder">Estimated time: waiting...</string>
     <string name="cancel_navigation_button_label">Cancel Navigation</string>
     <string name="unknown_amenity">Unknown</string>
-    <string name="start_location_default">Terminal D Level 3 starting point</string>
+    <string name="start_location_default">Terminal D Level 3 Passenger Current Location</string>
     <string name="missing_amenity_error">No amenity was selected. Please choose one and try again.</string>
     <string name="start_navigation_title">Start Navigation</string>
     <string name="current_location_placeholder">Current Location: %1$s</string>

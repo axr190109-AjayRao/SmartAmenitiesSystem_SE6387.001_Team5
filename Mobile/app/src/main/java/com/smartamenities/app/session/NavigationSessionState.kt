@@ -6,16 +6,14 @@ enum class DemoSegment(val apiValue: String) {
     SEGMENT_1("SEGMENT_1"),
     SEGMENT_2("SEGMENT_2"),
     SEGMENT_3("SEGMENT_3"),
-    SEGMENT_4("SEGMENT_4"),
-    SEGMENT_5("SEGMENT_5");
+    SEGMENT_4("SEGMENT_4");
 
     fun next(): DemoSegment {
         return when (this) {
             SEGMENT_1 -> SEGMENT_2
             SEGMENT_2 -> SEGMENT_3
             SEGMENT_3 -> SEGMENT_4
-            SEGMENT_4 -> SEGMENT_5
-            SEGMENT_5 -> SEGMENT_1
+            SEGMENT_4 -> SEGMENT_1
         }
     }
 }
@@ -37,7 +35,7 @@ object NavigationSessionState {
     }
 
     fun isDeviationRerouteAllowed(): Boolean {
-        return currentSegment() == DemoSegment.SEGMENT_5
+        return currentSegment() == DemoSegment.SEGMENT_4
     }
 
     fun advanceToNextSegment(): DemoSegment {

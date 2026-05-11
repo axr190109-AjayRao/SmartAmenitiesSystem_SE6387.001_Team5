@@ -13,10 +13,10 @@ public enum DemoSegmentMode {
     SEGMENT_5;
 
     public boolean allowsAmenityClosure() {
-        return this == LEGACY || this == SEGMENT_3;
+        return this == LEGACY || this == SEGMENT_2;
     }
 
     public boolean allowsInfrastructureAlert() {
-        return this == LEGACY || this == SEGMENT_4;
+        return this == LEGACY || this == SEGMENT_3;
     }
 }

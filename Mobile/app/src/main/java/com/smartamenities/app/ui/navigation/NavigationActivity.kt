@@ -382,7 +382,7 @@ class NavigationActivity : AppCompatActivity() {
                     if (progress.offRoute == true && simulatedActualLat != null
                         && !hasRerouted && !isOffRouteRerouteInProgress && !rerouteDialogVisible) {
                         if (!NavigationSessionState.isDeviationRerouteAllowed()) {
-                            Log.i(TAG, "Deviation reroute blocked outside SEGMENT_5; continuing normal navigation")
+                            Log.i(TAG, "Deviation reroute blocked outside SEGMENT_4; continuing normal navigation")
                             scheduleNextProgressTick()
                             return@simulateRouteProgress
                         }
@@ -485,7 +485,7 @@ class NavigationActivity : AppCompatActivity() {
         if (isNavigationCompleted) return
         if (liveStatusRequestInFlight) return
 
-        val isClosureSegment = NavigationSessionState.currentSegment() == DemoSegment.SEGMENT_3
+        val isClosureSegment = NavigationSessionState.currentSegment() == DemoSegment.SEGMENT_2
         // In Segment 3, hold off polling until after the initial delay so the backend's
         // closure trigger (poll 2-3) fires AFTER the delay, not before it.
         val pollStartTick = if (isClosureSegment) closureCheckDelayTicks else 0
@@ -603,7 +603,7 @@ class NavigationActivity : AppCompatActivity() {
                     accessibilityOn = isStepFreeRouteEnabled,
                     currentLatitude = closureSnapshotLat ?: lastKnownSnappedLat,
                     currentLongitude = closureSnapshotLon ?: lastKnownSnappedLon,
-                    currentLocationLabel = "Current passenger position",
+                    currentLocationLabel = "Terminal D Passenger Current Location",
                     resetClosureState = false
                 )
             }
@@ -785,7 +785,7 @@ class NavigationActivity : AppCompatActivity() {
         routeModel: RouteNavigationModel,
         progress: RouteProgressResponse
     ) {
-        if (NavigationSessionState.currentSegment() != DemoSegment.SEGMENT_4) return
+        if (NavigationSessionState.currentSegment() != DemoSegment.SEGMENT_3) return
         if (isNavigationCompleted || rerouteDialogVisible || infraRerouteMuted) return
         if (infraStatusRequestInFlight || isOffRouteRerouteInProgress) return
         if (elapsedTicks < infraCheckDelayTicks) return
@@ -892,7 +892,7 @@ class NavigationActivity : AppCompatActivity() {
                     accessibilityOn = isStepFreeRouteEnabled,
                     currentLatitude = infraSnapshotLat ?: lastKnownSnappedLat,
                     currentLongitude = infraSnapshotLon ?: lastKnownSnappedLon,
-                    currentLocationLabel = "Current passenger position",
+                    currentLocationLabel = "Terminal D Passenger Current Location",
                     resetClosureState = false,
                     suppressDeviation = true
                 )
@@ -911,7 +911,7 @@ class NavigationActivity : AppCompatActivity() {
         }
         val request = RouteRequest(
             destination = selectedAmenityRequestName,
-            currentLocation = "Current passenger position",
+            currentLocation = "Terminal D Passenger Current Location",
             accessibilityOn = isStepFreeRouteEnabled,
             destinationAmenityId = selectedAmenityId,
             sessionSeed = sessionSeed,
