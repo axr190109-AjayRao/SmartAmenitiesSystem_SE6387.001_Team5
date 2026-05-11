@@ -12,7 +12,7 @@ object NavigationExtras {
     const val EXTRA_STEP_FREE_ROUTE = "extra_step_free_route"
     const val EXTRA_SESSION_SEED = "extra_session_seed"
 
-    const val DEFAULT_START_LOCATION = "Terminal D Passenger Current Location"
+    const val DEFAULT_START_LOCATION = "Terminal D Level 3 starting point"
     const val DEFAULT_START_LATITUDE = 32.897485
     const val DEFAULT_START_LONGITUDE = -97.044391
 }
