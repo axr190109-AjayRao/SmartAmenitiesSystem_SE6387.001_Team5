@@ -236,11 +236,11 @@ public class RouteService {
             return;
         }
 
-        if (mode == DemoSegmentMode.LEGACY || mode == DemoSegmentMode.SEGMENT_5) {
+        if (mode == DemoSegmentMode.LEGACY || mode == DemoSegmentMode.SEGMENT_4) {
             return;
         }
 
-        if (mode == DemoSegmentMode.SEGMENT_3) {
+        if (mode == DemoSegmentMode.SEGMENT_2 || mode == DemoSegmentMode.SEGMENT_3) {
             String initialDestination = demoSessionConfigService.getInitialDestination(sessionSeed);
             if (initialDestination != null && !initialDestination.equals(resolvedDestinationAmenityId)) {
                 return;
